@@ -1,7 +1,7 @@
 #!name=广告过滤全家桶（Jinx+Johnshall+hdys专项）
-#!desc=统一订阅版 v2026.11.08.5：Jinx基线 + Johnshall仅去广告(已启用, jsDelivr转换清单) + anti-AD + blackmatrix7 + hdys03专项（含响应体净化脚本：删内联混淆广告脚本、隐藏推广块与底部悬浮条，需HTTPS解密+信任本机CA）。域名规则不需要证书即可生效。放行在前拦截在后，顺序勿改。
+#!desc=统一订阅版 v2026.11.08.6：Jinx基线 + Johnshall仅去广告(已启用, jsDelivr转换清单) + anti-AD + blackmatrix7 + hdys03专项（含响应体净化脚本：删内联混淆广告脚本、隐藏推广块与底部悬浮条，需HTTPS解密+信任本机CA）。域名规则不需要证书即可生效。放行在前拦截在后，顺序勿改。
 #!author=Muse (maintained for 李雪含)
-#!date=2026-11-08
+#!date=2026-11-08 21:47:00
 
 [Rule]
 # ===== A. 放行名单（必须最前，删了会误伤微信登录/推送等功能域）=====
