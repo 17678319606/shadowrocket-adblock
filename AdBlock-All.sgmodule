@@ -1,7 +1,7 @@
 #!name=广告过滤全家桶（Jinx+Johnshall+hdys专项）
-#!desc=统一订阅版 v2026.11.08.9：Jinx基线 + Johnshall仅去广告(已启用, jsDelivr转换清单) + anti-AD + blackmatrix7 + hdys03专项（响应体净化脚本已回退下线：更新后导致 hdys03 整站打不开，嫌疑脚本未单独验证前不重新启用）。域名规则不需要证书即可生效。放行在前拦截在后，顺序勿改。
+#!desc=统一订阅版 v2026.11.11.10：Jinx基线 + Johnshall仅去广告(已启用, jsDelivr转换清单) + anti-AD + blackmatrix7 + hdys03专项（响应体净化脚本已回退下线：更新后导致 hdys03 整站打不开，嫌疑脚本未单独验证前不重新启用）。域名规则不需要证书即可生效。放行在前拦截在后，顺序勿改。
 #!author=Muse (maintained for 李雪含)
-#!date=2026-11-08 23:16:11
+#!date=2026-11-11 10:31:16
 
 [Rule]
 # ===== A. 放行名单（必须最前，删了会误伤微信登录/推送等功能域）=====
@@ -9,7 +9,7 @@ RULE-SET,https://raw.githubusercontent.com/RiverFlowsInUUU/RFU-Rules/main/surge-
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Direct/Direct.list,DIRECT
 # ===== B. Jinx 基线（VME98/jinx-rules 3.2.3，经 RFU 转小火箭格式，8550 条）=====
 RULE-SET,https://raw.githubusercontent.com/RiverFlowsInUUU/RFU-Rules/main/surge-ads.list,REJECT
-# ===== C. Johnshall 仅去广告（sr_ad_only，每日8点重建：EasyList+EasyListChina+Peter Lowe+乘风+手工iOS广告；已转标准 RULE-SET 清单，53919 条，2026-11-08 转换）=====
+# ===== C. Johnshall 仅去广告（sr_ad_only，每日8点重建：EasyList+EasyListChina+Peter Lowe+乘风+手工iOS广告；已转标准 RULE-SET 清单，52019 条，2026-11-11 转换）=====
 RULE-SET,https://cdn.jsdelivr.net/gh/17678319606/shadowrocket-adblock@main/johnshall-ad.list,REJECT
 # ===== D. blackmatrix7 广告集（Johnshall 懒人配置同源）=====
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AdvertisingLite/AdvertisingLite.list,REJECT
